@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "Syncfusion.Server.Reports.Server.WebAPI\\Syncfusion.Server.Reports.Server.WebAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "IIS Express"
+      },
+      {
+        "Name": "Syncfusion.Server.Reports.Server.RestAPI\\Syncfusion.Server.Reports.Server.RestAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "IIS Express"
+      },
+      {
+        "Name": "Syncfusion.Server.Reports.Server.APIGateWay\\Syncfusion.Server.Reports.Server.APIGateWay.csproj",
+        "Action": "Start",
+        "DebugTarget": "IIS Express"
+      }
+    ]
+  },
+  {
+    "Name": "New Profile (1)",
+    "Projects": [
+      {
+        "Name": "Syncfusion.Server.Reports.Server.WebAPI\\Syncfusion.Server.Reports.Server.WebAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "Container (Dockerfile)"
+      },
+      {
+        "Name": "Syncfusion.Server.Reports.Server.RestAPI\\Syncfusion.Server.Reports.Server.RestAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "Container (Dockerfile)"
+      },
+      {
+        "Name": "Syncfusion.Server.Reports.Server.APIGateWay\\Syncfusion.Server.Reports.Server.APIGateWay.csproj",
+        "Action": "Start",
+        "DebugTarget": "Container (Dockerfile)"
+      }
+    ]
+  }
+]

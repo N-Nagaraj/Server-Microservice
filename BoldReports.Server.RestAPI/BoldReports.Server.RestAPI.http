@@ -1,0 +1,6 @@
+@BoldReports.Server.RestAPI_HostAddress = http://localhost:51779
+
+GET {{BoldReports.Server.RestAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

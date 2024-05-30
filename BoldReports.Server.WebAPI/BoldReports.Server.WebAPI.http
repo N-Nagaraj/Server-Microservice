@@ -1,0 +1,8 @@
+@BoldReports.Server.WebAPI_HostAddress = http://localhost:51779
+
+GET {{BoldReports.Server.WebAPI_HostAddress}}/reporting/site/site2/getid
+Accept: application/json
+
+###
+GET {{BoldReports.Server.WebAPI_HostAddress}}/reporting/site/site4/items?itemType=Report
+Accept: application/json
